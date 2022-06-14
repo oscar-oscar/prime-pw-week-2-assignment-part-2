@@ -45,14 +45,19 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// A declaration of a variable named secret is created but no value is assigned
+// A declaration of a variable named code is created witth assigned value of 123.
+// we check to see if variable code is an exact equal to 123 and it is
+// because 'code' is a true exact equal in the next line, the value of secret has changed and assigned to 'super' 
+// because of the true statements before, 'code' now equals itself multiplied by 2 and now has a value of 246
+// next we check to see if code's value of 246 is greater than 250 and it isn't
+// the console.log(secret) value is 'super'
 
 //CODE
 /*
 let secret;
+
+
 
 let code = 123;
 
