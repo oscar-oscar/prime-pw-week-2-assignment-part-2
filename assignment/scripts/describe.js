@@ -75,8 +75,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// created variable named isStudent with the boolean value true
+// created number variable with value of 34
+// created number variable with assigened value 55407
 // 
 //
 
