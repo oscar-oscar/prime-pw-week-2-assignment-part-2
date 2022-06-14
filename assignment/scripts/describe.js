@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// created a string variable and set it to Dane
+// We check to see if 'Dane' is exactly equal to Mary
+// the === operator doesn't return true because Dane is an exact equal to Mary
+// the Hi Mary console.log is skipped and we instead console.log the else statement "How do you do"
 
 //CODE
 /*
