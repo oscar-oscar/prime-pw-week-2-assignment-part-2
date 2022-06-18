@@ -171,8 +171,10 @@ if (colorOne === colorTwo){
 /*
 let temp = 40;
 const time = 4;
-
-if (temp > 39 || time >= 4) {
+// the OR || should be && to match the description. Since 4 is a const, it can't be conditonal otherwise.
+//if (temp > 39 || time >= 4) {
+// corected line below
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
