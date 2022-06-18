@@ -142,9 +142,13 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX  if statement to console.log 'they are puruple" We need colorOne and colorTwo to make mix=true.
+// FIX  if statement to console.log 'they are purple" We need colorOne and colorTwo to make mix=true.
 // see lines 147-152 now the if statement makes colorOne and colorTwo exact equals
 // an else is added to to prove false if colorOne doesn't equal colorTwo
+// needed to assign colorOne and colorTwo as 'purple' (lines 149 & 150) now it logs to 'they are purple'
+
+colorOne = 'purple'
+colorTwo = 'purple'
 
 if colorOne === colorTwo){
    console.log 'they are purple';
