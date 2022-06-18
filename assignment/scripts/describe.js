@@ -145,21 +145,23 @@ let mix = true;
 // FIX  if statement to console.log 'they are purple" We need colorOne and colorTwo to make mix=true.
 // see lines 147-152 now the if statement makes colorOne and colorTwo exact equals
 // an else is added to to prove false if colorOne doesn't equal colorTwo
-// needed to assign colorOne and colorTwo as 'purple' (lines 149 & 150) now it logs to 'they are purple'
+// needed to assign colorOne and colorTwo as 'purple' (lines 155+156) now it logs to 'they are purple'
+// fixed code below lines 151 - 163
+
+let colorOne = 'red';
+let colorTwo = 'blue';
+let mix = true;
 
 colorOne = 'purple'
 colorTwo = 'purple'
 
-if colorOne === colorTwo){
-   console.log 'they are purple';
-}
-else{
-  console.log('neither is purple');
-}
-   
-if (mix === true) {
-  colorOne = 'purple'; 
-} 
+if (colorOne === colorTwo){
+    console.log('they are purple');
+ }
+ else{
+   console.log('neither is purple');
+ }
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
