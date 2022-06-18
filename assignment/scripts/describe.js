@@ -79,8 +79,10 @@ console.log(secret)
 // created number variable with value of 34
 // created number variable with assigened value 55407
 // we check to see if variable isStudent is an exact true equal and their zip is greater than 80000. This if statement returns false and cant console.log that the student is on the West Coast.
-// we moved down and check the else-if to see if isStudent (true) is equal to false or the student is under 30 years old. False || true is true so since part of the statement is true we can then console.log 'What are your hobbies'
-// The browser stops there unless the variable values are changed and remain true
+// we moved down and check the else-if to see if isStudent (true) is equal to false or the student is under 30 years old. 
+// CORRECTION : OR statement is incorrect/FALSE. isStudent is not === false nor is the student under 30
+// we then move down to the 'esle if' statement which remains true and the browswer logs 'Welcome to Prime'
+
 //CODE
 /*
 let isStudent = true;
