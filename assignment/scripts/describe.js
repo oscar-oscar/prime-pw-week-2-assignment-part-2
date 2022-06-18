@@ -186,8 +186,19 @@ if (temp > 39 && time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// contradiction: the line below doesn't allow entry to a 21yr old but the const states they should be allowed. The <= should be <. 
+// fix if statement line 191 by changing <= to <
 if(minAge <= age) {
+  console.log('no entry');
+} else {
+  console.log('enter');
+}
+
+// fixed code below
+let age = 21;
+const minAge = 21;
+
+if(minAge < age) {
   console.log('no entry');
 } else {
   console.log('enter');
